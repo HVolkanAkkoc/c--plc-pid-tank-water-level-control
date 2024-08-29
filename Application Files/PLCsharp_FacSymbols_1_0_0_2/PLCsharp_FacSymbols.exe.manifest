@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xmlns:asmv1="urn:schemas-microsoft-com:asm.v1"
+                xmlns="urn:schemas-microsoft-com:asm.v2"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xmlns:dsig="http://www.w3.org/2000/09/xmldsig#"
+                manifestVersion="1.0">
+  <asmv1:assemblyIdentity name="PLCsharp_FacSymbols.exe" version="1.0.0.2" publicKeyToken="21b101c969062c76" language="neutral" processorArchitecture="msil" type="win32" />
+  
+  <!-- Uygulama Başlatıcı Bilgileri -->
+  <entryPoint>
+    <assemblyIdentity name="PLCsharp_FacSymbols" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PLCsharp_FacSymbols.exe" parameters="" />
+  </entryPoint>
+  
+  <!-- Güvenlik ve İzinler -->
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <requestedExecutionLevel level="highestAvailable" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  
+  <!-- İşletim Sistemi Bilgileri -->
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  
+  <!-- Bağımlı DLL'ler -->
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NetToolKit.dll" size="45056">
+      <assemblyIdentity name="NetToolKit" version="2.1.0.444" publicKeyToken="5107B9C608443DCC" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>SWp9Hbdyym4EB6O/3M1PzxDVt+7jfYhUTE36fT/de8I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PLCsharp_FacSymbols.exe" size="317416">
+      <assemblyIdentity name="PLCsharp_FacSymbols" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PDAI7SNsNo+JDdIQX5llWJnQiRwXw8B5W68MRBxZKn4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="S7.Net.dll" size="35328">
+      <assemblyIdentity name="S7.Net" version="1.0.0.0" publicKeyToken="D5812D469E84C693" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Sz/dvXjywgIbro32HHDbKNqzULBD1yMTNJslCvye4CI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SKCLNET.dll" size="237568">
+      <assemblyIdentity name="SKCLNET" version="4.4.1.0" publicKeyToken="D5770E63406D04A0" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tMeJb4OdsjgQ7xt72+g4+ts5opzlYvIzuCqwY67b1J4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SymbolFactoryDotNet.dll" size="241664">
+      <assemblyIdentity name="SymbolFactoryDotNet" version="2.0.0.221" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>U5l7W3tsFE+t7FVy7Bi6rP9A5wSTyDa6PC8VN6PWXrU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SymbolFactoryNetEngine.dll" size="143360">
+      <assemblyIdentity name="SymbolFactoryNetEngine" version="2.0.0.221" publicKeyToken="5107B9C608443DCC" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7OQ1mfg21dGSsOm/NGjFWF4tY4oPskao7fj3bm+r2Ls=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+
+  <file name="PLCsharp_FacSymbols.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  
+  <!-- Yayımcı Bilgileri -->
+  <publisherIdentity name="CN=DESKTOP-63BCPVP\VOLKAN" issuerKeyHash="17bd00a74162c45abad7038afa5656b3ab3d2ade" />
+
+  <!-- İmza Bilgileri -->
+  <Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+          <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14
